@@ -1,0 +1,23 @@
+ssh -i "ybigta.pem" ec2-user@ec2-43-203-130-32.ap-northeast-2.compute.amazonaws.com
+
+
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
+
+tar -xvf jdk-21_linux-x64_bin.tar.gz
+
+wget https://downloads.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz
+
+tar -xzf kafka_2.13-3.8.0.tgz
+
+cd kafka_2.13-3.8.0
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+javac Producer.java
+
+
+bin/zookeeper-server-start.sh -daemon config/zookeeper.properties
+
+bin/kafka-server-start.sh -daemon config/server.properties 
+
+

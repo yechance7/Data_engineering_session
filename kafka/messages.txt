@@ -1,0 +1,22 @@
+hello, kafka
+this is a test message
+User1 logged in at 10:03 AM
+Temperature sensor reports 25°C
+Order #12345 has been placed
+System error: unable to connect to database
+Stock price of ABC Corp is $200
+User2 logged out at 10:15 AM
+Temperature sensor reports 26°C
+Order #12346 has been shipped
+Disk usage exceeded 80% on server001
+New comment added to post ID 54321
+User3 signed up with email user3@example.com
+System warning: low memory on server002
+User1 updated their profile picture
+Order #12347 has been canceled
+Temperature sensor reports 27°C
+User4 requested password reset
+Inventory check: item #789 is out of stock
+Order #12348 has been refunded
+User5 left a review on product ID 9876
+Admin logged in from IP 192.168.1.100

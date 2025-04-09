@@ -1,0 +1,9 @@
+ssh -i "ybigta3.pem" ec2-user@3.26.229.74
+
+"C:\Users\yecha\Documents\ybigta\aws\ybigta3.pem"
+
+bin/kafka-console-consumer.sh --topic ybigta --from-beginning --bootstrap-server localhost:9092
+
+advertised.listeners=PLAINTEXT://3.26.229.74:9092
+
+cd kafka_2.13-3.8.1
